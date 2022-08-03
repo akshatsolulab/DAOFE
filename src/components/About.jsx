@@ -1,13 +1,13 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { nftTokenAddress } from "../utils/Connectors";
+import { nftContAddress } from "../utils/Connectors";
 
 const About = () => {
  const [Data, setData] = useState("");
  const [Loading, setLoading] = useState(true);
 
  const fetchNft = async () => {
-  const url = `https://deep-index.moralis.io/api/v2/0x2b06BB5312EC8De5bD8F59FCd4DEBE4e692514c7/nft/${nftTokenAddress}?chain=rinkeby&format=decimal`;
+  const url = `https://deep-index.moralis.io/api/v2/0x2b06BB5312EC8De5bD8F59FCd4DEBE4e692514c7/nft/${nftContAddress}?chain=rinkeby&format=decimal`;
 
   fetch(url, {
    method: "GET",

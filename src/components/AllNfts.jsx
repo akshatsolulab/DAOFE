@@ -1,13 +1,13 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { nftTokenAddress } from "../utils/Connectors";
+import { nftContAddress } from "../utils/Connectors";
 
 const AllNfts = () => {
  const [data, setData] = useState([]);
 
  const fetchNft = async () => {
   const url = `
-https://deep-index.moralis.io/api/v2/nft/${nftTokenAddress}?chain=rinkeby&format=decimal`;
+https://deep-index.moralis.io/api/v2/nft/${nftContAddress}?chain=rinkeby&format=decimal`;
 
   axios(url, {
    method: "GET",

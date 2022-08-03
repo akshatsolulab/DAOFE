@@ -1,7 +1,7 @@
 import React from "react";
 import { BsArrowRightCircle } from "react-icons/bs";
 import { useState } from "react";
-import { nftTokenAddress } from "../utils/Connectors";
+import { nftContAddress } from "../utils/Connectors";
 import axios from "axios";
 
 const Nft = () => {
@@ -9,7 +9,7 @@ const Nft = () => {
 
  const fetchNft = async () => {
   const url = `
-https://deep-index.moralis.io/api/v2/nft/${nftTokenAddress}?chain=rinkeby&format=decimal`;
+https://deep-index.moralis.io/api/v2/nft/${nftContAddress}?chain=rinkeby&format=decimal`;
 
   axios(url, {
    method: "GET",
