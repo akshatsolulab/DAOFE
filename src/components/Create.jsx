@@ -119,8 +119,8 @@ export const Create = () => {
      {!Loading ? (
       <div className="mx-auto max-w-2xl text-center">
        <button
-        className="bg-transparent border text-gray-400 w-full empty:3 px-12 py-4 rounded-full mt-10 ext font-normal text-white hover:bg-blue-600"
-        style={{ borderColor: "#2d2d2d" }}
+             className="bg-transparent border w-full empty:3 px-12 py-4 rounded-full mt-10 ext font-normal text-white hover:bg-blue-600"
+             style={{ borderColor: "#2d2d2d" }}
        >
         Create
        </button>

@@ -35,7 +35,7 @@ https://deep-index.moralis.io/api/v2/nft/${nftTokenAddress}?chain=rinkeby&format
     {data.map((item, index) => {
      return (
       <div key={index}>
-       <img src={item.token_uri} className=" h-60 w-96 rounded-lg text-white" alt={`TokenID - ${item.token_id}`} />;
+       <img src={item.token_uri} className=" h-60 w-96 rounded-lg text-white" alt={`TokenID - ${item.token_id}`} />
       </div>
      );
     })}
