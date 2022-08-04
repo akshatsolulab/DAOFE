@@ -71,8 +71,8 @@ const Treasury = () => {
 
  return (
   <>
-   <div className="border rounded-lg p-3" style={{ borderColor: "#2d2d2d" }}>
-   <div className="mx-auto  max-w-2xl  text-lg text-gray-400">
+   <div className="border rounded-lg p-3 max-w-4xl" style={{ borderColor: "#2d2d2d", width:"700px" }}>
+   <div className="mx-auto  max-w-2xl  text-lg text-white">
      <h5>Treasury</h5>
     </div>
     <div
@@ -87,11 +87,11 @@ const Treasury = () => {
 
     <div className="mx-auto max-w-2xl text 2xl text-gray-50 text-center">
      <form onSubmit={handleSubmit}>
-      <label htmlFor="MATIC" className="block mt-5 mb-2 text-left max-w-2xl text-sm font-medium text-gray-400">
+      <label htmlFor="MATIC" className="block mt-5 mb-2 text-left max-w-2xl text-sm font-medium text-white">
        Ether
       </label>
       <input
-       className=" border mx-auto max-w-2xl  text-gray-400 text-sm rounded-lg  block w-full p-2.5 bg-transparent border-gray-600  focus:ring-blue-500 focus:border-blue-500"
+       className=" border mx-auto max-w-2xl  text-white text-sm rounded-lg  block w-full p-2.5 bg-transparent border-gray-600  focus:ring-blue-500 focus:border-blue-500"
        type="number"
        min="0"
        style={{ borderColor: "#2d2d2d" }}

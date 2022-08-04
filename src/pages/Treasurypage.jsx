@@ -19,7 +19,7 @@ const Treasurypage = () => {
   <div>
    <Navbar />
    <div className="flex flex-col md:flex-row justify-center">
-    <div className="mt-7">
+    <div className="mt-4  ">
      <Sidebar />
     </div>
 

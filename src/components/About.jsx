@@ -97,7 +97,7 @@ const About = () => {
               style={{ borderColor: "#2d2d2d" }}
             >
               <img
-                src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
+                src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg"
                 class=" h-8 w-8 rounded-full"
                 alt=""
               />{" "}
@@ -108,7 +108,7 @@ const About = () => {
               style={{ borderColor: "#2d2d2d" }}
             >
               <img
-                src="https://mdbootstrap.com/img/new/standard/city/042.jpg"
+                src="https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80"
                 class=" h-8 w-8 rounded-full"
                 alt=""
               />{" "}
@@ -119,7 +119,7 @@ const About = () => {
               style={{ borderColor: "#2d2d2d" }}
             >
               <img
-                src="https://mdbootstrap.com/img/new/standard/city/043.jpg"
+                src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80"
                 class=" h-8 w-8 rounded-full"
                 alt=""
               />{" "}
@@ -130,29 +130,13 @@ const About = () => {
               style={{ borderColor: "#2d2d2d" }}
             >
               <img
-                src="https://mdbootstrap.com/img/new/standard/city/044.jpg"
+                src="https://images.unsplash.com/photo-1483389127117-b6a2102724ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHdvcmt8ZW58MHx8MHx8&w=1000&q=80"
                 class=" h-8 w-8 rounded-full"
                 alt=""
               />{" "}
               0x480a40Af754A49dA1420e5d2E053C779DBCa5e9E
             </li>
-            <li
-              className="flex flex-row py-3 px-4 w-full border-b border-gray-600"
-              style={{ borderColor: "#2d2d2d" }}
-            >
-              <img
-                src="https://mdbootstrap.com/img/new/standard/city/045.jpg"
-                class=" h-8 w-8 rounded-full"
-                alt=""
-              />{" "}
-              0x353274519210eB9337b95d30437e1cf3E0417999
-            </li>
-            <li
-              className="flex flex-row py-3 px-4 w-full border-b border-gray-600"
-              style={{ borderColor: "#2d2d2d" }}
-            >
-  
-            </li>
+           
           </ul>
         </div>
    </>

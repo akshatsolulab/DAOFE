@@ -1,31 +1,29 @@
-# Getting Started with Create React App
+# Getting Started Front End DAO React App
 
-# Environment
+This will guide you with the installation and the Behaviour of the Project.
 
-```
-REACT_APP_API_KEY= Moralis API key
-GENERATE_SOURCEMAP=false
-```
+## Getting started
 
-# Installation
+### Setting up the project
 
-```
-git clone https://github.com/shubhamkr95/NFT-DAO-FE.git
+* Move into your projects directory: `cd ~/YOUR_PROJECTS_DIRECTORY`
+* Clone this repository: `git clone https://github.com/akshatsolulab/DAOFE YOUR_PROJECT_NAME`
+* Move into the project directory: `cd YOUR_PROJECT_NAME`
+* Install the dependencies: `npm install`
+* Create a new repo on GitHub: https://github.com/new
+    * Make sure the "Initialize this repository with a README" option is left unchecked
+* Update the remote to point to your GitHub repository: `git remote set-url origin https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME`
 
-cd NDT-DAO-FE
+### Working on the project
 
-npm install
-
-npm start
-```
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+* Move into the project directory: `cd ~/YOUR_PROJECTS_DIRECTORY/YOUR_PROJECT_NAME`
+* Run the development task: `npm start`
+    * Starts a server running at http://localhost:5000
+    * Automatically restarts when any of your files change
+    * Create a .env file in your Project.
+    * REACT_APP_API_KEY= Moralis API key
+    *GENERATE_SOURCEMAP=false
+    
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -58,32 +56,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### SCREENSHOTS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+THE HOMEPAGE
+[HomePage](https://user-images.githubusercontent.com/86094155/182846094-3bb7bcd7-8db1-4e0d-b461-80acd4b94f38.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+THE CREATE PROPOSAL PAGE
+[CreateProposal](https://user-images.githubusercontent.com/86094155/182846266-4a68bf8f-aa79-40e3-9c1b-dc5bdce9392b.png)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE 
