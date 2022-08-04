@@ -51,7 +51,7 @@ export const Sidebar = () => {
       className="flex items-center ml-3 p-2 text-base font-normal rounded-lg text-white hover:bg-gray-700"
      >
       {" "}
-      NFT
+      NFTS Page
      </NavLink>
     </li>
     <li>
