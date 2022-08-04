@@ -59,9 +59,11 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ### SCREENSHOTS
 
 THE HOMEPAGE
-[HomePage](https://user-images.githubusercontent.com/86094155/182846094-3bb7bcd7-8db1-4e0d-b461-80acd4b94f38.png)
+https://user-images.githubusercontent.com/86094155/182865213-0842e626-9e5b-4409-8515-bf35e69c0107.png
 
 THE CREATE PROPOSAL PAGE
-[CreateProposal](https://user-images.githubusercontent.com/86094155/182846266-4a68bf8f-aa79-40e3-9c1b-dc5bdce9392b.png)
+https://user-images.githubusercontent.com/86094155/182865458-541fb6d2-602c-4426-bb81-cc939daef170.png
 
-THE 
+THE TREASURY PAGE
+https://user-images.githubusercontent.com/86094155/182865703-a7092180-abf6-411c-8500-04a4ae4733cd.png
+

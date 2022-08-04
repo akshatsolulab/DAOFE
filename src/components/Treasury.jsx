@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import { treasuryContract, signer, treasuryAddress, provider, url } from "../utils/Connectors";
 import ButtonLoader from "./ButtonLoader";
 import { useNavigate } from "react-router-dom";
+import Ethereum1 from "../assets/eth.jpg";
+
 
 const Treasury = () => {
  const navigate = useNavigate();
@@ -87,12 +89,13 @@ const Treasury = () => {
 
     <div className="mx-auto max-w-2xl text 2xl text-gray-50 text-center">
      <form onSubmit={handleSubmit}>
-      <label htmlFor="MATIC" className="block mt-5 mb-2 text-left max-w-2xl text-sm font-medium text-white">
+      <div className="flex flex-row ">
+        <label htmlFor="MATIC" className="block mt-5 mb-2 text-left max-w-2xl text-xl font-medium text-white">
        Ether
-      </label>
+      </label><img src={Ethereum1} className=" ml-3 mt-3 h-9 w-9 rounded-full" alt="" />
+      </div> 
       <input
        className=" border mx-auto max-w-2xl  text-white text-sm rounded-lg  block w-full p-2.5 bg-transparent border-gray-600  focus:ring-blue-500 focus:border-blue-500"
-       type="number"
        min="0"
        style={{ borderColor: "#2d2d2d" }}
        value={Ether}

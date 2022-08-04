@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ButtonLoader from "./ButtonLoader";
-import { nftContAddress } from "../utils/Connectors";
+import { nftContract } from "../utils/Connectors";
 
 const Delegate = () => {
  const [Loading, setLoading] = useState(false);
@@ -16,11 +16,11 @@ const Delegate = () => {
   e.preventDefault();
   setLoading(true);
   try {
-   const checkDelegate = await nftContAddress.delegates(Address);
+   const checkDelegate = await nftContract.delegates(Address);
    if (checkDelegate === Address) {
     alert("Address already delegated");
    } else if (checkDelegate === "0x0000000000000000000000000000000000000000") {
-    const tx = await nftContAddress.delegate(Address);
+    const tx = await nftContract.delegate(Address);
     const Tx = await tx.wait();
     setHash(Tx.transactionHash);
     setAddress("");
