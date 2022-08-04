@@ -101,7 +101,7 @@ const About = () => {
                 class=" h-8 w-8 rounded-full"
                 alt=""
               />{" "}
-              0x47f8...32a1
+              0xaB06D3C161efCca6b67FC62407D956AaeeBaB4dd
             </li>
             <li
               className="flex flex-row py-3 px-4 w-full border-b border-gray-600"
@@ -112,7 +112,7 @@ const About = () => {
                 class=" h-8 w-8 rounded-full"
                 alt=""
               />{" "}
-              abvavgjoe.eth
+              0x24F16E5B92dCFF3e3B22e8222579CDa537d1093d
             </li>
             <li
               className="flex flex-row py-3 px-4 w-full border-b border-gray-600"
@@ -123,7 +123,7 @@ const About = () => {
                 class=" h-8 w-8 rounded-full"
                 alt=""
               />{" "}
-              redvan.eth
+              0x3491a686c6fB9b52F7938e523CFAB766DFa825d6
             </li>
             <li
               className="flex flex-row py-3 px-4 w-full border-b border-gray-600"
@@ -134,7 +134,7 @@ const About = () => {
                 class=" h-8 w-8 rounded-full"
                 alt=""
               />{" "}
-              grendel.eth
+              0x480a40Af754A49dA1420e5d2E053C779DBCa5e9E
             </li>
             <li
               className="flex flex-row py-3 px-4 w-full border-b border-gray-600"
@@ -145,18 +145,13 @@ const About = () => {
                 class=" h-8 w-8 rounded-full"
                 alt=""
               />{" "}
-              frogmonkee.eth
+              0x353274519210eB9337b95d30437e1cf3E0417999
             </li>
             <li
               className="flex flex-row py-3 px-4 w-full border-b border-gray-600"
               style={{ borderColor: "#2d2d2d" }}
             >
-              <img
-                src="https://mdbootstrap.com/img/new/standard/city/046.jpg"
-                class=" h-8 w-8 rounded-full"
-                alt=""
-              />{" "}
-              icedcool.eth
+  
             </li>
           </ul>
         </div>

@@ -24,9 +24,6 @@ const Treasurypage = () => {
     </div>
 
     <div className="flex flex-col p-4">
-     <div>
-      <Nft />
-     </div>
      <div className="mt-5">
       <Treasury />
      </div>
