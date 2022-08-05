@@ -68,7 +68,7 @@ const Delegate = () => {
       <ButtonLoader />
      )}
      <div>
-      <a className="text-sm ml-1 hover:text-blue-600" href={`https://rinkeby.etherscan.io/tx/${Hash}`}>
+      <a className="text-sm ml-2 hover:text-blue-600" href={`https://rinkeby.etherscan.io/tx/${Hash}`}>
        {Hash}
       </a>
      </div>

@@ -51,7 +51,7 @@ const Details = (prop) => {
      <div>
       <p className=" font-medium text-xl text-gray-400 mt-5">Proposer Address: {data.proposer_address}</p>
       <p className=" font-medium text-xl text-gray-200 mt-5">Quorum Required: {QuorumPercentage} Percentage</p>
-      <p className=" font-medium text-xl text-gray-400 mt-5">Proposal Threshold: {ProposalThreshold} NFTTOKEN</p>
+     <p className=" font-medium text-xl text-gray-400 mt-5">Proposal Threshold: {ProposalThreshold} NFTTOKEN</p>
       <p className=" font-medium text-xl text-gray-200 mt-5">
        Proposal ID: <span className="font-small text-sm">{data.proposal_id}</span>
       </p>
