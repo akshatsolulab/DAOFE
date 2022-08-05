@@ -82,6 +82,9 @@ THE PROPOSAL DETAIS PAGE
 THE ALL NFT PAGE
 <img width="1440" alt="Screenshot 2022-08-05 at 12 16 42 PM" src="https://user-images.githubusercontent.com/86094155/183018231-1b45c5ce-0b51-4c57-9b05-d965a296d53e.png">
 
+### Added Plugins
+* Tailwind
+* React DOM
 
 ### License
 Unknown
