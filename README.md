@@ -58,7 +58,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ### SCREENSHOTS
 
-THE HOMEPAGE
+THE PROPOSALS
 <img width="1440" alt="Screenshot 2022-08-04 at 7 26 49 PM" src="https://user-images.githubusercontent.com/86094155/182865213-0842e626-9e5b-4409-8515-bf35e69c0107.png">
 
 THE CREATE PROPOSAL PAGE
@@ -67,7 +67,21 @@ THE CREATE PROPOSAL PAGE
 THE TREASURY PAGE
 <img width="1440" alt="Screenshot 2022-08-04 at 7 29 03 PM" src="https://user-images.githubusercontent.com/86094155/182865703-a7092180-abf6-411c-8500-04a4ae4733cd.png">
 
+THE NFTS PAGE
+<img width="1440" alt="Screenshot 2022-08-05 at 12 11 45 PM" src="https://user-images.githubusercontent.com/86094155/183017414-a17cb5db-986f-4454-851b-cc4d28c15825.png">
+
 THE ABOUT PAGE
 <img width="1440" alt="Screenshot 2022-08-04 at 8 02 26 PM" src="https://user-images.githubusercontent.com/86094155/182873433-b259c476-fcc7-4923-8dea-ae5385bee901.png">
 
+THE DELEGATE PAGE
+<img width="1440" alt="Screenshot 2022-08-05 at 12 14 04 PM" src="https://user-images.githubusercontent.com/86094155/183017727-c82302ff-a5fd-4691-9486-a5a241bf0e38.png">
 
+THE PROPOSAL DETAIS PAGE
+<img width="1440" alt="Screenshot 2022-08-05 at 12 15 22 PM" src="https://user-images.githubusercontent.com/86094155/183017964-ae969499-79df-49a2-8a77-7f08d60e6b9a.png">
+
+THE ALL NFT PAGE
+<img width="1440" alt="Screenshot 2022-08-05 at 12 16 42 PM" src="https://user-images.githubusercontent.com/86094155/183018231-1b45c5ce-0b51-4c57-9b05-d965a296d53e.png">
+
+
+### License
+Unknown
