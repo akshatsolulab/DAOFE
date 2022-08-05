@@ -93,8 +93,6 @@ export const Create = () => {
      />
      <label className="block mb-2 mt-10 mx-auto max-w-2xl text-sm font-medium text-gray-400 ">Amount</label>
      <input
-      type="number"
-      min="0"
       className=" border mx-auto max-w-2xl  text-white text-sm rounded-lg  block w-full p-2.5  border-gray-600 bg-transparent  focus:ring-blue-500 focus:border-blue-500"
       placeholder="amount in Ether"
       style={{ borderColor: "#2d2d2d" }}
