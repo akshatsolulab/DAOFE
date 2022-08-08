@@ -5,6 +5,7 @@ import { treasuryContract, signer, treasuryAddress, provider, url } from "../uti
 import ButtonLoader from "./ButtonLoader";
 import { useNavigate } from "react-router-dom";
 import Ethereum1 from "../assets/eth.jpg";
+import "../assets/treasury.css";
 
 
 const Treasury = () => {

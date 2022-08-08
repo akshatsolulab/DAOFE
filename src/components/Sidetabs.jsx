@@ -146,13 +146,13 @@ const Sidetabs = (props) => {
    {Stage !== 4 ? (
     <></>
    ) : (
-    <div className="w-72 h-30 mt-5  rounded-lg border" style={{ borderColor: "#2d2d2d" }}>
+    <div className="w-72 h-30 mt-5 ml-12 md:ml-0 rounded-lg border" style={{ borderColor: "#2d2d2d" }}>
      <div className="mt-2 mx-auto ">
       <h1 className="text-center text-white text-xl font-bold">Queued Proposal</h1>
       <div className="flex justify-center">
        {!Loading ? (
         <button
-         className=" text-gray-100 font-bold py-2 px-4 w-48 mb-5 mt-2 align-center rounded-full hover:bg-blue-500"
+         className=" text-gray-100 border font-bold py-2 px-4 w-48 mb-5 mt-2 align-center rounded-full hover:bg-blue-500"
          style={{ borderColor: "#2d2d2d" }}
          onClick={handleQueue}
         >
@@ -168,13 +168,13 @@ const Sidetabs = (props) => {
    {Stage !== 5 ? (
     <></>
    ) : (
-    <div className="w-72 h-30 mt-5  rounded-lg border" style={{ borderColor: "#2d2d2d" }}>
+    <div className="w-72 h-30 ml-12 md:ml-0 mt-5  rounded-lg border" style={{ borderColor: "#2d2d2d" }}>
      <div className="mt-2 mx-auto ">
       <h1 className="text-center text-white text-xl font-bold">Execute Proposal</h1>
       <div className="flex justify-center">
        {!Loading ? (
         <button
-         className=" text-gray-100 font-bold py-2 px-4 w-48 mb-5 mt-2 align-center rounded-full hover:bg-blue-500"
+         className=" text-gray-100 border font-bold py-2 px-4 w-48 mb-5 mt-2 align-center rounded-full hover:bg-blue-500"
          style={{ borderColor: "#2d2d2d" }}
          onClick={handleExecute}
         >
