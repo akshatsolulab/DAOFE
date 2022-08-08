@@ -73,7 +73,7 @@ const Treasury = () => {
 
  return (
   <>
-   <div className="border rounded-lg p-3 max-w-4xl" style={{ borderColor: "#2d2d2d", width:"700px" }}>
+   <div className="border rounded-lg p-3 max-w-4xl"  style={{ borderColor: "#2d2d2d" }} id = "treasury">
    <div className="mx-auto  max-w-2xl  text-lg text-white">
      <h5>Treasury</h5>
     </div>

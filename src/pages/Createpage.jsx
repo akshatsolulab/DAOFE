@@ -6,7 +6,10 @@ const Createpage = () => {
 	return (
 		<div>
 			<Navbar />
-			<Create />
+			<div className="mx-5 md:mx-0">
+    <Create />
+	
+   </div>
 		</div>
 	);
 };
