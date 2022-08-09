@@ -76,7 +76,7 @@ THE ABOUT PAGE
 THE DELEGATE PAGE
 <img width="1440" alt="Screenshot 2022-08-05 at 12 14 04 PM" src="https://user-images.githubusercontent.com/86094155/183017727-c82302ff-a5fd-4691-9486-a5a241bf0e38.png">
 
-THE PROPOSAL DETAIS PAGE
+THE PROPOSAL DETAILS PAGE
 <img width="1440" alt="Screenshot 2022-08-05 at 12 15 22 PM" src="https://user-images.githubusercontent.com/86094155/183017964-ae969499-79df-49a2-8a77-7f08d60e6b9a.png">
 
 THE ALL NFT PAGE
