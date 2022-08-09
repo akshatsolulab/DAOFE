@@ -7,11 +7,11 @@ export const treasuryAbi = treasuryABI.abi;
 export const governanceAbi = governanceABI.abi;
 export const nftAbi = governTokenABI.abi;
 
-export const treasuryAddress = "0x3aF185cA7444dBE1a305E618071987Fe8D85Db4F";
+export const treasuryAddress = "0xaad986533EBF544f7527B41ab3647cFFdBDf2446";
 
-export const governanceAddress = "0x14eA1f366cD6c43aEA24354101b62187f26E7Ccd";
+export const governanceAddress = "0x9C23B01A852c8bC5C5C17947Be16a77FC86da210";
 
-export const nftContAddress = "0x7B8Bc476F7f40Dcc634B9872FA4E7Eba93Ce285E";
+export const nftContAddress = "0x33E549cFc5ef1c499256f4656Cd0F1906F1d58f8";
 
 export const provider = new ethers.providers.Web3Provider(window.ethereum);
 
